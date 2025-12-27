@@ -1,0 +1,21 @@
+*{
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+h3{
+    color: blue;
+}
+h4{
+    color: burlywood;
+}
+.myclass{
+    color: yellow;
+
+}
+#myid{
+    color: blueviolet;
+}
+h5,p{
+    color: aquamarine;
+}

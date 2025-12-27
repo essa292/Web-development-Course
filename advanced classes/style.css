@@ -1,0 +1,75 @@
+body  {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: rgb(125, 132, 138);
+}
+h1{
+    color: aqua;
+
+}
+a{
+    color: darkslategray;
+    text-decoration: none;
+
+}
+a:hover{
+    color: blue;
+}
+ul > li {
+    font-weight: bold;
+
+
+}
+h1+p{
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+ul li:hover {
+    color: blue;
+    
+}
+ul li:nth-child(3) {
+
+    background-color: #76818f;
+
+}
+
+/* :not(selector) Pseudo-class */
+
+/* Except the first p tag */
+
+p:not(:first-of-type) {
+
+    text-decoration: underline;
+
+}
+
+/* ::before Pseudo-element */
+
+/* use window+dot(.) for emoji */
+
+ul li::before {
+
+    content: "🚀";
+
+}
+
+/* ::after Pseudo-element */
+
+a::after {
+
+    content: " 🌌";
+
+}
+
+/* ::first-letter Pseudo-element */
+
+p::first-letter {
+
+    font-size: 200%;
+
+    color: #FF7B72;
+
+}
